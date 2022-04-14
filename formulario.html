@@ -1,0 +1,88 @@
+<!-- comadno shift + excalmacion y enter-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <!--Guardar con control + S-->
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <!--nombre, apellido, edad, documento de identidad, numero, tu opinion-->
+    <div id="formulario">
+        <form>
+            <!-- types: 
+            button, checkbox, color, date, email, image, 
+            radio, range, submit, tel, search, week
+        -->
+
+            <!-- nombre, type: text-->
+            <label for="nombre">Tu nombre</label>
+            <input type="texto" name="nombre" placeholder="Favor digital aqui su nombre">
+
+            <br>
+            <!-- apellido, type: text-->
+            <label for="apellido">Tu apellido:</label>
+            <input type="texto" name="apellido">
+            <br>
+
+            <!-- telefono, type: tel-->
+            <label for="telefono">Digite su telefono:</label>
+            <input type="tel" name="telefono" placeholder="(+57) 123-45-678">
+            <br><br><br>
+
+
+            <!-- telefono, type:radio-->
+            <label for="nivel">Que tan conforme te sientes programando</label><br>
+            <label for="basico">Basico</label>
+            <input type="radio" name="basico">
+            <label for="medio">Medio</label>
+            <input type="radio" name="medio">
+            <label for="avanzado">Avanzado</label>
+            <input type="radio" name="avanzado">
+            <br><br><br>
+
+            <!-- telefono, type:checkbox-->
+            <label for="nivel">Que tan conforme te sientes programando</label>
+            <label for="basico">Basico</label>
+            <br>
+            <input type="checkbox" name="basico">
+            <label for="medio">Medio</label>
+            <input type="checkbox" name="medio">
+            <label for="avanzado">Avanzado</label>
+            <input type="checkbox" name="avanzado">
+            <br><br><br>
+            <!--email-->
+            <br>
+            <label for="email">Digite su email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <!--option muchas opcioens para desplegar-->
+            <label for="documento">Escoge tu documento de identidad:</label>
+
+            <select>
+                <option value="cc">Cedula de cuidania</option>
+                <option value="ti">Tarjeta de identidad</option>
+                <option value="pasaporte">Pasaporte</option>
+                <option value="visa" selected>Visa</option>
+            </select>
+            <br><br><br>
+
+            <!--typo date -->
+            <label for="cumple">Cumple:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br><br>
+            <!--para enviar info-->
+            <input type="submit">
+
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+#formulario{
+   border-style: solid;
+   padding: 25px;
+   margin: 65px; /*margen*/
+}
