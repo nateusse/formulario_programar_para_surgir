@@ -1,6 +1,7 @@
 # formulario_programar_para_surgir
 
 ## Estructura de un formulario 
+```
 <form>
   <label for="  " >Texto para que vea el usuario:</label><br>
   <input type=" "  name=" "><br>  
